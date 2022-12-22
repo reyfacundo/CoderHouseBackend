@@ -33,6 +33,14 @@ class ProductManager {
 
 const list = new ProductManager();
 
-const Asus = new ProductManager ('Asus', 'Asus Laptop', 5000, '#', 10, 5);
+const Asus = { 
+    title: "Asus Laptop",
+    description: " Latest Laptop Released",
+    price: 3000,
+    thumbnail: "#",
+    code: 300,
+    stock:20
+};
 list.addProduct(Asus);
 console.log(list.getProducts())
+
