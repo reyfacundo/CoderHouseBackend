@@ -53,6 +53,7 @@ class ProductManager{
     }
 
     async update(id,obj){
+        try{
         const FC = await this.#test();
         const update = FC.map((product)=> product.id === id ? {...product, ...obj} : product )
         if (!FC.find((obj)=> obj.id === id)) throw new Error(`${obj.id}id not found`)
@@ -62,4 +63,15 @@ class ProductManager{
     }
 }
 
+    async deleteProduct(id){
+    try{
+        const FC = await this.#test()
+        const filter = FC.filter((product) => product.id !== id);
+        if (!FC.find((obj)=> obj.id ==id )) throw new Error(`${id} not found`)
+        else await fs.promises.writeFile(this.filepath, JSON.stringify(filter,null, 2))
+    }catch (error){
+        console.log(error)
+    }
+}
+}
 module.exports = ProductManager;
