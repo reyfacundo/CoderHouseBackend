@@ -1,0 +1,19 @@
+{
+  "name": "desafio2",
+  "version": "1.0.0",
+  "description": "desafio2",
+  "main": "Desafio2",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reyfacundo/CoderHouseBackend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reyfacundo/CoderHouseBackend/issues"
+  },
+  "homepage": "https://github.com/reyfacundo/CoderHouseBackend#readme"
+}
