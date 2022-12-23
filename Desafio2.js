@@ -34,7 +34,7 @@ class ProductManager{
         if (await this.#checkCode(obj.code)) return console.log(`${obj.code} not found`)
         
         try{
-            if (FC.length !== 0) await fs.promises.writeFile(this.filepath, JSON.stringify([...FC, {...obj, id:FC[FC.length -1].id +1}], null, 2), 'utf-8')
+            if (FC.length !== 0) await fs.promises.writeFile(this.filepath, JSON.stringify([...FC, {...obj, id: FC[FC.length - 1].id +1}], null, 2), 'utf-8')
             else await fs.promises.writeFile(this.filepath, JSON.stringify([{...obj, id: 1 }]), 'utf-8')
         } catch(error){
             console.log(error)
