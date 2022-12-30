@@ -1,1 +1,101 @@
-[]
+[{
+    "id":1,
+    "title":"lenovo PC",
+    "stock":3,
+    "description": "Latest Pc",
+    "code":1,
+    "thumbnail": "#",
+    "price":2500
+    
+},
+{
+    "id":2,
+    "title":"lenovo Tablet",
+    "stock":5,
+    "description": "Latest Tablet",
+    "code":1,
+    "thumbnail": "#",
+    "price":300
+    
+},{
+    "id":3,
+    "title":"lenovo Screen",
+    "stock":6,
+    "description": "Latest Screen",
+    "code":3,
+    "thumbnail": "#",
+    "price":1000
+    
+}
+,{
+    "id":4,
+    "title":"Ryzen 3200g",
+    "stock":13,
+    "description": "Latest Ryzen",
+    "code":4,
+    "thumbnail": "#",
+    "price":1500
+    
+}
+,
+{
+    "id":5,
+    "title":"Samsung A10",
+    "stock":54,
+    "description": "Latest Samsung Phone",
+    "code":5,
+    "thumbnail": "#",
+    "price":500
+    
+},
+{
+    "id":6,
+    "title":"Motorola g9 play",
+    "stock":31,
+    "description": "Latest Motorola phone",
+    "code":6,
+    "thumbnail": "#",
+    "price":200
+    
+},
+{
+    "id":7,
+    "title":"Redragon Kumara",
+    "stock":42,
+    "description": "Latest Redragon Keyboard",
+    "code":7,
+    "thumbnail": "#",
+    "price":80
+    
+},
+{
+    "id":8,
+    "title":"Redragon griphin",
+    "stock":23,
+    "description": "Latest Redragon Mouse",
+    "code":8,
+    "thumbnail": "#",
+    "price":30
+    
+},
+{
+    "id":9,
+    "title":"Nintendo Switch lite",
+    "stock":200,
+    "description": "Latest Nintendo Console",
+    "code":9,
+    "thumbnail": "#",
+    "price":1000
+    
+},
+{
+    "id":10,
+    "title":"Playstation 5",
+    "stock":300,
+    "description": "Latest Sony Console",
+    "code":10,
+    "thumbnail": "#",
+    "price":3000
+    
+}
+]

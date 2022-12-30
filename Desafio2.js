@@ -47,7 +47,7 @@ class ProductManager{
 
             if(!FC.find((obj) => obj.id === id)) throw new Error (`Id ${obj.id} not found`)
             else console.log(FC.find((obj)=> obj.id === id))
-        }catch{
+        }catch(error){
             console.log(`Id ${id} not found`)
         }
     }

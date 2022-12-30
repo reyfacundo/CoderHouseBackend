@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/reyfacundo/CoderHouseBackend/issues"
   },
-  "homepage": "https://github.com/reyfacundo/CoderHouseBackend#readme"
+  "homepage": "https://github.com/reyfacundo/CoderHouseBackend#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
 }
