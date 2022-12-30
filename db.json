@@ -1,5 +1,5 @@
 [{
-    "id":1,
+    "id":"1",
     "title":"lenovo PC",
     "stock":3,
     "description": "Latest Pc",
@@ -9,7 +9,7 @@
     
 },
 {
-    "id":2,
+    "id":"2",
     "title":"lenovo Tablet",
     "stock":5,
     "description": "Latest Tablet",
@@ -18,7 +18,7 @@
     "price":300
     
 },{
-    "id":3,
+    "id":"3",
     "title":"lenovo Screen",
     "stock":6,
     "description": "Latest Screen",
@@ -28,7 +28,7 @@
     
 }
 ,{
-    "id":4,
+    "id":"4",
     "title":"Ryzen 3200g",
     "stock":13,
     "description": "Latest Ryzen",
@@ -39,7 +39,7 @@
 }
 ,
 {
-    "id":5,
+    "id":"5",
     "title":"Samsung A10",
     "stock":54,
     "description": "Latest Samsung Phone",
@@ -49,7 +49,7 @@
     
 },
 {
-    "id":6,
+    "id":"6",
     "title":"Motorola g9 play",
     "stock":31,
     "description": "Latest Motorola phone",
@@ -59,7 +59,7 @@
     
 },
 {
-    "id":7,
+    "id":"7",
     "title":"Redragon Kumara",
     "stock":42,
     "description": "Latest Redragon Keyboard",
@@ -69,7 +69,7 @@
     
 },
 {
-    "id":8,
+    "id":"8",
     "title":"Redragon griphin",
     "stock":23,
     "description": "Latest Redragon Mouse",
@@ -79,7 +79,7 @@
     
 },
 {
-    "id":9,
+    "id":"9",
     "title":"Nintendo Switch lite",
     "stock":200,
     "description": "Latest Nintendo Console",
@@ -89,7 +89,7 @@
     
 },
 {
-    "id":10,
+    "id":"10",
     "title":"Playstation 5",
     "stock":300,
     "description": "Latest Sony Console",

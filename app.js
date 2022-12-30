@@ -1,17 +1,21 @@
+
+
+
+
 const express = require("express");
 const app = express();
 const ProductManager = require("./ProductManager.js");
 
 const productManager = new ProductManager ("./db.json")
 
-app.get("/products", async (req,res) => {
+app.get("/products", async (req , res) => {
   const products = await productManager.getProducts();
   const { limit } = req.query;
   if(limit) return res.json(products.slice(0, limit));
   else return res.json(products);
 });
 
-app.get("/products/:pid" ,async (req,res) => {
+app.get("/products/:pid", async (req , res) => {
   const products = await productManager.getProducts();
   const { pid } = req.params;
   const product = products.find((product) => product.id === pid);
